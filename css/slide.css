@@ -1,0 +1,19 @@
+.wrapper {
+	background:white;width:100%; margin:0 auto;}
+.wrapper .inner { width:100%; margin:0 auto;} /**页面全局宽度**/
+.mod1 { width:1000px; height:400px; margin:0 auto; background:#ccc;} 
+.mod1 .ml { width:100%;} 
+.mod1 .post .con { padding:0px;}
+.picbase1-content p{
+    display: none !important;
+}
+.picbase1-content h2{
+    border-style: none !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 20px !important;
+    padding: 10px;
+    color:  rgba(12, 78, 126, 1) !important;
+}
+.picbase1-content {
+    max-width: 1000px !important;
+}

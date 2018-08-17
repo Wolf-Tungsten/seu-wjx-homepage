@@ -1,0 +1,27 @@
+/* 导航栏相关效果 */
+.navbar { width:100%; height:40px; background:#0c4eb0;position: relative;  z-index: 9999;}   	/**导航区域背景**/
+.navbar .navbox { width:1000px; height:40px; margin:0 auto;}   /**导航窗口大小及位置**/
+.wp_nav { display: flex !important; justify-content: center !important;}
+.wp_nav .nav-item { height:40px; width:111px;}
+.wp_nav .nav-item a span.item-name { color:white; padding:0;}
+#wp_nav_w2 .wp_nav .nav-item a span.item-name {line-height:40px;}
+.wp_nav .nav-item a.parent {}
+.wp_nav .nav-item a { font-size:18px;}
+.wp_nav .sub-nav .nav-item a.parent span.item-name { width:71%; background:#fff;}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item { height:34px;}
+#wp_nav_w2 .wp_nav .nav-item a.parent:hover { background:#fff;}
+#wp_nav_w2 .wp_nav .nav-item a.parent:hover span.item-name { color:#003054;}
+#wp_nav_w2 .wp_nav .sub-nav { min-width:108px !important; border:none;}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item .mark { background:#0373ce; opacity:0.8; filter:alphy(opcity="80");}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item a { border:none;}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item a span.item-name { padding:6px 16px; color:white; line-height:22px;}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item a.parent:hover { background:#fff;}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item a.parent { background:none;}
+#wp_nav_w1 .wp_nav .nav-item { width:70px; height:20px; background:url(../images/w1.png) -1px 1px; background-repeat:no-repeat;}
+#wp_nav_w1 .wp_nav .i1 { background:none;}
+#wp_nav_w1 .wp_nav .nav-item a { font-size:14px;}
+#wp_nav_w1 .wp_nav .nav-item a span.item-name { line-height:18px;}
+#wp_nav_w9 .wp_nav .nav-item { width:auto; height:50px; line-height:50px; background:url(../images/w9.png) 0px 18px; background-repeat:no-repeat;}
+#wp_nav_w9 .wp_nav .i1 { background:none;}
+#wp_nav_w9 .wp_nav .nav-item a { font-size:14px;}
+#wp_nav_w9 .wp_nav .nav-item a span.item-name { color:#0c4eb0; line-height:50px; padding:0px 16px;}

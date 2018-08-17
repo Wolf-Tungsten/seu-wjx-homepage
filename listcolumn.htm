@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>通用模板</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+</head>
+<body>
+<div class="wrapper" id="header">
+  <div class="inner">
+    <div class="head">
+      <a href="@V_URL[M:S28]" class="tz"></a>
+      <div class="sitetitle">
+        <div frag="面板1">
+          <div frag="窗口1">
+            <div frag="窗口内容">窗口内容 </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar" frag="面板2">
+      <div class="navbox" frag="窗口2">
+        <div frag="窗口内容"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper" id="container2">
+  <div class="inner">
+    <div class="col_menu">
+      <div class="col_menu_head" frag="面板3">
+        <h3 class="col_name" frag="窗口3" portletmode="simpleColumnAnchor"> <span class="col_name_text">
+          <div frag="窗口内容">位置栏目</div>
+          </span> </h3>
+      </div>
+      <div class="col_menu_con" frag="面板4">
+        <div class="col_list" frag="窗口4" portletmode="simpleColumnList">
+          <div frag="窗口内容">位置列表</div>
+        </div>
+      </div>
+    </div>
+    <div class="col_news">
+      <div class="col_news_head" frag="面板5">
+        <ul class="col_metas clearfix" frag="窗口5" portletmode="simpleColumnAttri">
+          <div frag="窗口内容">
+            <li class="col_title">
+              <h2>{栏目名称}</h2>
+            </li>
+            <li class="col_path"><span class="path_name">当前位置：</span>{当前位置}</li>
+          </div>
+        </ul>
+      </div>
+      <div class="col_news_con" frag="面板6">
+        <div class="col_news_list clearfix" frag="窗口6" portletmode="simpleList">
+          <div frag="窗口内容" >栏目新闻</div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper" id="footer">
+  <div class="inner">
+    <div class="foot clearfix">
+      <div class="copyright">
+        <p><span>东南大学机械工程学院</span></p>
+        <p><span>备案序号：苏ICP证201008206600号</span></p>
+      </div>
+      <div class="weixin">
+            	<a><img src="images/ww.png"></a>
+                <div class="weixin_ewm">
+                	<img src="images/erm.png" />
+                </div>
+            </div>
+      <div class="txwb">
+            	<a><img src="images/w2.png" /></a>
+                <div class="txwb_ewm">
+                	<img src="images/erm2.png" />
+                </div>
+            </div>
+                 
+      
+    </div>
+  </div>
+</div>
+</body>
+</html>

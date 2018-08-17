@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "less": "^3.8.0"
+  },
+  "scripts": {
+    "package":"zip -r template.zip main.htm displayinfo.htm listcolumn.htm css/ asset/ js/ extends/"
   }
 }
