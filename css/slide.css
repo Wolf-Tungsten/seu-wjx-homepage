@@ -1,5 +1,5 @@
 .wrapper {
-	background:white;width:100%; margin:0 auto;}
+	background:#f6f6f6;width:100%; margin:0 auto;}
 .wrapper .inner { width:100%; margin:0 auto;} /**页面全局宽度**/
 .mod1 { width:1000px; height:400px; margin:0 auto; background:#ccc;} 
 .mod1 .ml { width:100%;} 
