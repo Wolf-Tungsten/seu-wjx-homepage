@@ -4,3 +4,4 @@ dist/
 template/dist/
 .cache/
 .DS_Store
+template.zip

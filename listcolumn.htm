@@ -1,87 +1,85 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>通用模板</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>东南大学吴健雄学院</title>
+  <link type="text/css" href="css/main.css" rel="stylesheet" />
+  <link type="text/css" href="css/nav.css" rel="stylesheet" />
+  <link type="text/css" href="css/listcolumn.css" rel="stylesheet" />
+  <script src="js/less.js" type="text/javascript"></script>
+  <script src="extends/extends.js"></script>
+  <link href="extends/extends.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<div class="wrapper" id="header">
-  <div class="inner">
-    <div class="head">
-      <a href="@V_URL[M:S28]" class="tz"></a>
-      <div class="sitetitle">
-        <div frag="面板1">
-          <div frag="窗口1">
-            <div frag="窗口内容">窗口内容 </div>
+  <div id="banner">
+
+  </div>
+  <!-- <div id="navigation-bar">
+      <span>首页</span>
+      <span>学院概况</span>
+      <span>书院文化</span>
+      <span>师资队伍</span>
+      <span>招生就业</span>
+      <span>健雄学子</span>
+      <span>荣誉殿堂</span>
+      <span>规章制度</span>
+      <span>党建园地</span>
+  </div> -->
+
+  <!-- 导航栏 -->
+  <div class="navbar" frag="面板2">
+    <div class="navbox" frag="窗口2">
+      <div frag="窗口内容"> </div>
+    </div>
+  </div>
+
+  <div id="main-content" style="display:flex; flex-direction:column; align-items:center">
+    <div class="wrapper" id="container2">
+      <div class="inner">
+        <div class="col_menu">
+          <div class="col_menu_head" frag="面板3">
+            <h3 class="col_name" frag="窗口3" portletmode="simpleColumnAnchor"> <span class="col_name_text">
+                <div frag="窗口内容">位置栏目</div>
+              </span> </h3>
+          </div>
+          <div class="col_menu_con" frag="面板4">
+            <div class="col_list" frag="窗口4" portletmode="simpleColumnList">
+              <div frag="窗口内容">位置列表</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="navbar" frag="面板2">
-      <div class="navbox" frag="窗口2">
-        <div frag="窗口内容"> </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="wrapper" id="container2">
-  <div class="inner">
-    <div class="col_menu">
-      <div class="col_menu_head" frag="面板3">
-        <h3 class="col_name" frag="窗口3" portletmode="simpleColumnAnchor"> <span class="col_name_text">
-          <div frag="窗口内容">位置栏目</div>
-          </span> </h3>
-      </div>
-      <div class="col_menu_con" frag="面板4">
-        <div class="col_list" frag="窗口4" portletmode="simpleColumnList">
-          <div frag="窗口内容">位置列表</div>
-        </div>
-      </div>
-    </div>
-    <div class="col_news">
-      <div class="col_news_head" frag="面板5">
-        <ul class="col_metas clearfix" frag="窗口5" portletmode="simpleColumnAttri">
-          <div frag="窗口内容">
-            <li class="col_title">
-              <h2>{栏目名称}</h2>
-            </li>
-            <li class="col_path"><span class="path_name">当前位置：</span>{当前位置}</li>
+        <div class="col_news">
+          <div class="col_news_head" frag="面板5">
+            <ul class="col_metas clearfix" frag="窗口5" portletmode="simpleColumnAttri">
+              <div frag="窗口内容">
+                <li class="col_title">
+                  <h2>{栏目名称}</h2>
+                </li>
+                <li class="col_path"><span class="path_name">当前位置：</span>{当前位置}</li>
+              </div>
+            </ul>
           </div>
-        </ul>
-      </div>
-      <div class="col_news_con" frag="面板6">
-        <div class="col_news_list clearfix" frag="窗口6" portletmode="simpleList">
-          <div frag="窗口内容" >栏目新闻</div>
+          <div class="col_news_con" frag="面板6">
+            <div class="col_news_list clearfix" frag="窗口6" portletmode="simpleList">
+              <div frag="窗口内容">栏目新闻</div>
+            </div>
+          </div>
         </div>
+        <div class="clear"></div>
       </div>
     </div>
-    <div class="clear"></div>
   </div>
-</div>
-<div class="wrapper" id="footer">
-  <div class="inner">
-    <div class="foot clearfix">
-      <div class="copyright">
-        <p><span>东南大学机械工程学院</span></p>
-        <p><span>备案序号：苏ICP证201008206600号</span></p>
-      </div>
-      <div class="weixin">
-            	<a><img src="images/ww.png"></a>
-                <div class="weixin_ewm">
-                	<img src="images/erm.png" />
-                </div>
-            </div>
-      <div class="txwb">
-            	<a><img src="images/w2.png" /></a>
-                <div class="txwb_ewm">
-                	<img src="images/erm2.png" />
-                </div>
-            </div>
-                 
-      
-    </div>
+  <div id="bottom">
+    <p id="copyright">
+      版权所有@东南大学吴健雄学院<br/> 中国·南京·东南大学吴健雄学院 邮编：211189<br/> Email：wjxxy@pub.seu.edu.cn Tel：025-52090996
+    </p>
+    <p id="wx">
+      欢迎关注东南大学吴健雄学院微信平台
+    </p>
+    <img id="qrcode" src="asset/img/qrcode.jpg" />
   </div>
-</div>
 </body>
+
 </html>
