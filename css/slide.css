@@ -1,7 +1,7 @@
 .wrapper {
 	background:#f6f6f6;width:100%; margin:0 auto;}
 .wrapper .inner { width:100%; margin:0 auto;} /**页面全局宽度**/
-.mod1 { width:1000px; height:400px; margin:0 auto; background:#ccc;} 
+.mod1 { width:1160px; height:400px; margin:0 auto; background:#ccc;} 
 .mod1 .ml { width:100%;} 
 .mod1 .post .con { padding:0px;}
 .picbase1-content p{
@@ -15,5 +15,5 @@
     color:  rgba(12, 78, 126, 1) !important;
 }
 .picbase1-content {
-    max-width: 1000px !important;
+    max-width: 1160px !important;
 }
