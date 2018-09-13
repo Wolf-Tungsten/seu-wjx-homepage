@@ -107,7 +107,7 @@
         <div class="news" style="flex-grow:1;margin-right: 10px;">
           <div class="title">
             <div class="text">综合新闻</div>
-            <img src='asset/img/news-icon.jpg' />
+           
           </div>
           <div class="line"> </div>
           <div frag="面板4">
@@ -130,7 +130,7 @@
         <div class="news" style="flex-grow:1;">
           <div class="title">
             <div class="text">大事要览</div>
-            <img src='asset/img/dashiyaolan-icon.jpg' />
+            
           </div>
           <div class="line"> </div>
           <div class="news-panel news-list">
@@ -153,8 +153,8 @@
         <div class="news">
 
           <div class="title">
-            <div class="text">信息公告</div>
-            <img src='asset/img/xinxigonggao-icon.jpg' />
+            <div class="text">荣誉活动</div>
+           
           </div>
           <div class="line"> </div>
           <div class="news-panel news-list">
@@ -174,31 +174,53 @@
         </div>
         <div class="news">
 
-          <div class="title">
-            <div class="text">荣誉活动</div>
-            <img src='asset/img/rongyuhuodong-icob.jpg' />
-          </div>
-          <div class="line"> </div>
-          <div class="news-panel news-list">
-            <div class="list">
-              <div frag="面板7">
-                <div frag="窗口7">
-                  <div frag="窗口内容">
-                    <div class="title">
-                      <span class="text">{标题}</span>
-                      <span class="date">{发布时间(MM-dd)}</span>
+          <div class="sudy-tab sudy-tab2">
+            <ul class="tab-menu">
+              <li class="tab1">教学工作</li>
+              <li class="tab2">学生工作</li>
+            </ul>
+            <ul class="tab-list">
+              <li class="">
+                <div id="ylgl">
+                  <div frag="面板7">
+                    <div frag="窗口7">
+                    <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="images/more-y.png"></span></span>
+                      <div frag="窗口内容">
+                        <ul>
+                          <!--[InfoCycleBegin]-->
+                          <li class="new-list"><span class="biaoti">{标题}</span><span class="date">{发布时间}</span></li>
+                          <!--[InfoCycleEnd]-->
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </li>
+              <li class="">
+                <div id="ylgl">
+                  <div frag="面板17">
+                    <div frag="窗口17">
+                    <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="images/more-y.png"></span></span>
+                      <div frag="窗口内容">
+                        <ul>
+                          <!--[InfoCycleBegin]-->
+                          <li class="new-list"><span class="biaoti">{标题}</span><span class="date">{发布时间}</span></li>
+                          <!--[InfoCycleEnd]-->
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
+
         </div>
         <div class="news">
 
           <div class="title">
             <div class="text">国际交流</div>
-            <img src='asset/img/guojijiaoliu-icon.jpg' />
+        
           </div>
           <div class="line"> </div>
           <div class="news-panel news-list">
@@ -222,7 +244,7 @@
 
           <div class="title">
             <div class="text">人物风采</div>
-            <img src='asset/img/renwufencai-icon.jpg' />
+           
           </div>
           <div class="line"> </div>
           <div class="news-panel news-list">
@@ -244,7 +266,7 @@
 
           <div class="title">
             <div class="text">媒体视角</div>
-            <img src='asset/img/meitishijiao.jpg' />
+           
           </div>
           <div class="line"> </div>
           <div class="news-panel news-list">
@@ -266,7 +288,7 @@
 
           <div class="title">
             <div class="text">学生工作</div>
-            <img src='asset/img/xueshenggongzuo.jpg' />
+          
           </div>
           <div class="line"> </div>
           <div class="news-panel news-list">
@@ -306,7 +328,7 @@
     $('.timer').css('display', 'none');
     setInterval(function () {
       $('span.right').click();
-    }, 6000);
+    }, 8000);
     $('span.right').css('background', 'url(https://wolf-tungsten.com/static/seu-youth/slide_next.png) no-repeat');
     $('span.left').css('background', 'url(https://wolf-tungsten.com/static/seu-youth/slide_previous.png) no-repeat');
     $('span.left').css('left',40);
