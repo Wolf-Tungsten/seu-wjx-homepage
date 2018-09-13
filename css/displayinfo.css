@@ -1,0 +1,18 @@
+.infobox { margin:0 auto;}
+.article {}
+.article h1.arti_title { line-height:26px; font-family: "Microsoft YaHei"; padding:20px; text-align:center; font-size:24px; color:#555;} /**文章标题**/
+.article .arti_metas { padding:10px; text-align:center;background-color: #eee;  width: 94%; margin: 0 auto;}
+.article .arti_metas span { margin:0 5px; font-size:12px; color:#787878;} /**文章其他属性**/
+.article .entry { margin:0 auto; overflow:hidden; padding: 24px;} /**文章内容**/
+.article .entry .read,.article .entry .read p { line-height:1.6; font-size:14px; color:#333;}  /**阅读字体**/
+.article .entry .read p { margin-bottom:10px;}
+.article .entry .read img { max-width:940px; _width:expression(this.width > 940 ? "940px" : this.width); }   /**文章阅读部分图片大小限制**/
+#con_link { height:197px; background-color:#bdbdbd;}
+#con_link .inner { width:1098px; margin:0 auto; padding-top:36px;}
+.arti_views span {
+    display: inline;
+}
+
+.entry img {
+height:auto;
+}

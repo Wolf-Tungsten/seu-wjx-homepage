@@ -1,68 +1,130 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>通用模板</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>东南大学吴健雄学院</title>
+  <link type="text/css" href="/_upload/tpl/06/66/1638/template1638/css/main.css" rel="stylesheet" />
+  <link type="text/css" href="/_upload/tpl/06/66/1638/template1638/css/nav.css" rel="stylesheet" />
+  <link type="text/css" href="/_upload/tpl/06/66/1638/template1638/css/displayinfo.css" rel="stylesheet" />
+  <script src="/_upload/tpl/06/66/1638/template1638/js/less.js" type="text/javascript"></script>
+  <script src="/_upload/tpl/06/66/1638/template1638/extends/extends.js"></script>
+  <link href="/_upload/tpl/06/66/1638/template1638/extends/extends.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<div class="wrapper" id="header">
-  <div class="inner">
-    <div class="head">
-      <a href="@V_URL[M:S28]" class="tz"></a>
-      <div class="sitetitle">
-        <div frag="面板1">
-          <div frag="窗口1">
-            <div frag="窗口内容">窗口内容 </div>
+  <div id="banner">
+
+  </div>
+  <!-- <div id="navigation-bar">
+      <span>首页</span>
+      <span>学院概况</span>
+      <span>书院文化</span>
+      <span>师资队伍</span>
+      <span>招生就业</span>
+      <span>健雄学子</span>
+      <span>荣誉殿堂</span>
+      <span>规章制度</span>
+      <span>党建园地</span>
+  </div> -->
+
+  <!-- 导航栏 -->
+  <div class="navbar" frag="面板2">
+    <div class="navbox" frag="窗口2">
+      <div frag="窗口内容"> </div>
+    </div>
+  </div>
+
+  <div id="main-content" style="display:flex; flex-direction:column; align-items:stretch; max-width: 1200px">
+
+    <div style="display: flex;">
+      <!-- 新闻内容部分 -->
+      <div style="flex-grow: 1">
+        <div class="wrapper" id="container">
+          <div class="inner">
+            <div class="infobox" frag="面板32">
+              <div class="article" frag="窗口32" portletmode="simpleArticleAttri">
+                <div frag="窗口内容">
+                  <h1 class="arti_title">{标题}</h1>
+                  <p class="arti_metas">
+                    <span class="arti_publisher">发布者：{文章来源}</span>
+                    <span class="arti_update">发布时间：{发布时间}</span>
+                    <span class="arti_views">浏览次数：{浏览次数}</span>
+                  </p>
+                  <div class="entry">
+                    <div class="read">{内容}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="navbar" frag="面板2">
-      <div class="navbox" frag="窗口2">
-        <div frag="窗口内容"> </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="wrapper" id="container">
-  <div class="inner">
-    <div class="infobox" frag="面板32">
-      <div class="article" frag="窗口32" portletmode="simpleArticleAttri">
-        <div frag="窗口内容">
-          <h1 class="arti_title">{标题}</h1>
-          <p class="arti_metas"><span class="arti_publisher">发布者：{文章来源}</span><span class="arti_update">发布时间：{发布时间}</span><span class="arti_views">浏览次数：{浏览次数}</span></p>
-          <div class="entry">
-            <div class="read">{内容}</div>
+
+      <!-- 最近更新部分 -->
+      <div style="padding-top:50px; padding-right:15px; min-width: 320px; display: flex; flex-direction: column; align-items:stretch">
+
+
+        <div class="news" style="flex-grow:0">
+          <div class="title">
+            <div class="text">最近更新</div>
+          </div>
+          <div class="line"> </div>
+          <div class="news-panel news-list">
+            <div class="list">
+              <div frag="面板33">
+                <div frag="窗口33">
+                  <div frag="窗口内容">
+                    <div class="title">
+                      <span class="text">{标题}</span>
+                      <span class="date">{发布时间(MM-dd)}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
+
+        <div class="news" style="flex-grow:0">
+          <div class="title">
+            <div class="text">当前热点</div>
+          </div>
+          <div class="line"> </div>
+          <div class="news-panel news-list">
+            <div class="list">
+              <div frag="面板34">
+                <div frag="窗口34">
+                  <div frag="窗口内容">
+                    <div class="title">
+                      <span class="text">{标题}</span>
+                      <span class="date">{发布时间(MM-dd)}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
+
+    </div>
+
+  </div>
+  <div id="bottom">
+    <div class="bottom-content">
+      <p id="copyright">
+        版权所有@东南大学吴健雄学院<br/> 中国·南京·东南大学吴健雄学院 邮编：211189<br/> Email：wjxxy@pub.seu.edu.cn Tel：025-52090996
+      </p>
+      <p id="wx">
+        欢迎关注东南大学吴健雄学院微信平台
+      </p>
+      <img id="qrcode" src="asset/img/qrcode.jpg" />
     </div>
   </div>
-</div>
-<div class="wrapper" id="footer">
-  <div class="inner">
-    <div class="foot clearfix">
-      <div class="copyright">
-        <p><span>东南大学机械工程学院</span></p>
-        <p><span>备案序号：苏ICP证201008206600号</span></p>
-      </div>
-      <div class="weixin">
-            	<a><img src="images/ww.png"></a>
-                <div class="weixin_ewm">
-                	<img src="images/erm.png" />
-                </div>
-            </div>
-      <div class="txwb">
-            	<a><img src="images/w2.png" /></a>
-                <div class="txwb_ewm">
-                	<img src="images/erm2.png" />
-                </div>
-            </div>
-                 
-      
-    </div>
-  </div>
-</div>
 </body>
+
 </html>

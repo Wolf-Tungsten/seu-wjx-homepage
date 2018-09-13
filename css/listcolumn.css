@@ -1,0 +1,32 @@
+#container2 {}
+#container2 .inner { width:980px; background:#fff; padding:10px 0px; min-height:450px;}
+.col_menu { min-width:215px;} 
+.col_menu .col_menu_head { background:#ddd; margin: 0 !important;}   /**位置栏目背景**/
+.col_menu .col_menu_head h3.col_name { font-size:17px; font-weight:bold; color:#222; margin: 0 !important;}		/**位置栏目字体**/
+.col_menu .col_menu_head h3.col_name .col_name_text { display:block; line-height:21px; padding:12px 5px 12px 20px;}  /**栏目名称图标**/
+
+.wp_listcolumn {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.listcolumn {
+    display: flex;
+}
+
+.col_news {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.Article_Title a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #333333;
+    line-height: 20px
+}
+
+.Article_PublishDate{
+    font-size: 12px;
+    color: #888888;
+    line-height: 20px
+}
