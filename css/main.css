@@ -67,7 +67,7 @@ body {
 }
 #main-content #left {
   flex-grow: 0;
-  width: 350px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -132,9 +132,10 @@ body {
 }
 .news .title .text {
   font-size: 16px;
+  flex-grow: 1;
 }
 .news .title img {
-  height: 50px;
+  height: 25px;
 }
 .news .line {
   width: 100%;
@@ -286,3 +287,4 @@ body {
   flex-direction: column;
   align-items: stretch;
 }
+
