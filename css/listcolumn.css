@@ -30,3 +30,7 @@
     color: #888888;
     line-height: 20px
 }
+
+.Article_Index {
+    display: none !important;
+}
