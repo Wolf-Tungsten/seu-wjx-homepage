@@ -58,6 +58,13 @@
 
   <div id="main-content">
     <div id="left">
+      <div frag="面板22" style="z-index:100">
+        <div frag="窗口22">
+          <div frag="窗口内容">
+          </div>
+        </div>
+      </div>
+
       <div class="sider-panel">
         <span class="title">吴健雄简介</span>
         <div class="content">
@@ -279,11 +286,13 @@
               </div>
               <div class="line"> </div>
               <div class="news-panel news-list">
-                <div class="list">
-                  <div frag="窗口内容">
-                    <div class="title">
-                      <span class="text">{标题}</span>
-                      <!-- <span class="date">{发布时间(yyyy-MM-dd)}</span> -->
+                <div frag="窗口内容">
+                  <div style="display:flex;flex-direction:row;justify-content:center;align-items:flex-start;">
+                    <div class="news-mix-content">
+                      <div class="article-pic">{缩略图}</div>
+                      <div class="article-mix-title">{标题}</div>
+                      <div class="article-date" style="padding-left:0px">{发布时间}</div>
+                      <div class="article-mix-content">{简介}</div>
                     </div>
                   </div>
                 </div>
@@ -302,11 +311,13 @@
               </div>
               <div class="line"> </div>
               <div class="news-panel news-list">
-                <div class="list">
-                  <div frag="窗口内容">
-                    <div class="title">
-                      <span class="text">{标题}</span>
-                      <!-- <span class="date">{发布时间(yyyy-MM-dd)}</span> -->
+                <div frag="窗口内容">
+                  <div style="display:flex;flex-direction:row;justify-content:center;align-items:flex-start;">
+                    <div class="news-mix-content">
+                      <div class="article-pic">{缩略图}</div>
+                      <div class="article-mix-title">{标题}</div>
+                      <div class="article-date" style="padding-left:0px">{发布时间}</div>
+                      <div class="article-mix-content">{简介}</div>
                     </div>
                   </div>
                 </div>
@@ -325,11 +336,13 @@
               </div>
               <div class="line"> </div>
               <div class="news-panel news-list">
-                <div class="list">
-                  <div frag="窗口内容">
-                    <div class="title">
-                      <span class="text">{标题}</span>
-                      <!-- <span class="date">{发布时间(yyyy-MM-dd)}</span> -->
+                <div frag="窗口内容">
+                  <div style="display:flex;flex-direction:row;justify-content:center;align-items:flex-start;">
+                    <div class="news-mix-content">
+                      <div class="article-pic">{缩略图}</div>
+                      <div class="article-mix-title">{标题}</div>
+                      <div class="article-date" style="padding-left:0px">{发布时间}</div>
+                      <div class="article-mix-content">{简介}</div>
                     </div>
                   </div>
                 </div>
@@ -353,7 +366,7 @@
       <img id="qrcode" src="asset/img/qrcode.jpg" />
     </div>
   </div>
-  
+
   <div frag="面板21" style="z-index:100">
     <div frag="窗口21">
       <div frag="窗口内容">
@@ -361,6 +374,8 @@
       </div>
     </div>
   </div>
+
+
 </body>
 <!-- 配置轮播图 -->
 <script _ue_org_tagname="script" type="text/javascript">
