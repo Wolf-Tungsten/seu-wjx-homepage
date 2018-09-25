@@ -89,7 +89,7 @@ body {
 
 #main-content #left .icon {
   width: 60px;
-  align-self: center;
+  margin: 10px 66px;
 }
 /* #main-content #right {
   flex-grow: 1;
@@ -116,6 +116,7 @@ body {
 .sider-panel .content img {
   align-self: center;
   width: 100px;
+  margin: 0 26px;
 }
 .sider-panel .content .text {
   font-size: 12px;
