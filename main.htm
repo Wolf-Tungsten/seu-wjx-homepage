@@ -14,7 +14,9 @@
 
 <body>
   <div id="banner">
-
+    <div style="width:1000px; margin:0 auto;">
+      <img id="banner-img" src="asset/img/banner.png"/>
+    </div>
   </div>
   <!-- <div id="navigation-bar">
       <span>首页</span>
@@ -57,16 +59,11 @@
 
 
   <div id="main-content">
+    <div id="main-content-inner">
     <div id="left">
-      <div frag="面板22" style="z-index:100">
-        <div frag="窗口22">
-          <div frag="窗口内容">
-          </div>
-        </div>
-      </div>
 
       <div class="sider-panel">
-        <span class="title">吴健雄简介</span>
+        <div class="title">吴健雄先生简介</div>
         <div class="content">
           <img class="image" src="asset/img/wjx.jpg" />
           <p class="text">
@@ -79,7 +76,7 @@
 
       <img class="icon" src="asset/img/xyicon.jpg" />
       <div class="sider-panel">
-        <span class="title">学院简介</span>
+        <div class="title">学院简介</div>
         <div class="content">
           <p class="text">
             &nbsp; &nbsp; &nbsp; &nbsp;吴健雄学院是东南大学优秀人才的培养基地、教学改革的试验基地和管理改革的示范基地。学院以世界杰出物理学家、东南大学校友吴健雄先生的名字命...<a>[查看详情>>]</a>
@@ -88,16 +85,7 @@
       </div>
 
       <div class="sider-panel">
-        <span class="title">吴院人物</span>
-        <div class="content">
-          <p class="text">
-            ...
-          </p>
-        </div>
-      </div>
-
-      <div class="sider-panel">
-        <span class="title">友情链接</span>
+        <div class="title">友情链接</div>
         <div class="content">
           <p class="text">
             <a>东南大学</a>
@@ -105,20 +93,26 @@
         </div>
       </div>
 
+      <div frag="面板22" style="z-index:100">
+          <div frag="窗口22">
+            <div frag="窗口内容">
+            </div>
+          </div>
+        </div>
+
 
     </div>
     <div id="right">
       <div class="main-group">
 
         <!-- 综合新闻位置 -->
-        <!-- <div class="news" style="flex-grow:1;margin-right: 10px;max-width: 550px;">
+        <div class="news" style="width:638px; float:left;">
           <div frag="面板4">
             <div frag="窗口4">
-              <div class="title">
-                <div class="text">综合新闻</div>
+              <div class="news-title">
+                <div class="title-text">综合新闻</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
               <div class="news-panel">
                 <div frag="窗口内容">
                   <div style="display:flex;flex-direction:row;justify-content:center;align-items:flex-start;">
@@ -132,9 +126,9 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
 
-        <div class="news" style="flex-grow:2; margin-right: 10px;">
+        <!-- <div class="news" style="flex-grow:2; margin-right: 10px;">
           <div frag="面板34">
             <div frag="窗口34">
               <div class="title">
@@ -144,7 +138,6 @@
                   <div frag="窗口内容" style="display: none;"></div>
                 </div>
               </div>
-              <div class="line"> </div>
             </div>
           </div>
           <div style="display: flex;align-items: center;">
@@ -159,14 +152,14 @@
               </div>
             </div>
 
-            <div frag="面板24" style="padding-left:15px;">
+            <div frag="面板24" style="width: 302px; float:right;">
               <div frag="窗口24">
                 <div class="news-panel news-list">
                   <div class="list">
                     <div frag="窗口内容">
                       <div class="title">
                         <span class="text">{标题}</span>
-                        <!-- <span class="date">{发布时间(yyyy-MM-dd)}</span> -->
+                       <span class="date">{发布时间(yyyy-MM-dd)}</span> 
                       </div>
                     </div>
                   </div>
@@ -174,18 +167,17 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- 大事要览位置 -->
 
-        <div class="news" style="flex-grow:1;">
+        <div class="news" style="width:302px; float: right;">
           <div frag="面板5">
             <div frag="窗口5">
-              <div class="title">
-                <div class="text">大事要览</div>
+              <div class="news-title">
+                <div class="title-text">大事要览</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
               <div class="news-panel news-list">
                 <div class="list">
                   <div frag="窗口内容">
@@ -199,21 +191,19 @@
             </div>
           </div>
         </div>
+        <div class="clear"></div>
 
       </div>
-      <div class="main-group">
+      <div class="main-group" style="margin-top:30px;">
 
-
-
-        <div class="news">
+        <div class="news" style="width:300px; float:left;">
           <div frag="面板6">
             <div frag="窗口6">
-
-              <div class="title">
-                <div class="text">荣誉活动</div>
+              <div class="news-title">
+                <div class="title-text">荣誉活动</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
+              
               <div class="news-panel news-list">
                 <div class="list">
                   <div frag="窗口内容">
@@ -228,15 +218,14 @@
           </div>
         </div>
 
-        <div class="news">
+        <div class="news" style="margin: 0 40px; width:300px; float:left">
           <div frag="面板7">
             <div frag="窗口7">
 
-              <div class="title">
-                <div class="text">教学信息</div>
+              <div class="news-title">
+                <div class="title-text">教学信息</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
               <div class="news-panel news-list">
                 <div class="list">
                   <div frag="窗口内容">
@@ -251,15 +240,14 @@
           </div>
         </div>
 
-        <div class="news">
+        <div class="news" style="width:300px; float:left">
           <div frag="面板8">
             <div frag="窗口8">
 
-              <div class="title">
-                <div class="text">学工信息</div>
+              <div class="news-title">
+                <div class="title-text">学工信息</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
               <div class="news-panel news-list">
                 <div class="list">
                   <div frag="窗口内容">
@@ -273,18 +261,17 @@
             </div>
           </div>
         </div>
+        <div class="clear"></div>
       </div>
-
-      <div class="main-group">
-        <div class="news">
+      <div class="main-group" style="margin-top:30px;">
+        <div class="news" style="width:300px; float:left;">
           <div frag="面板10">
             <div frag="窗口10">
 
-              <div class="title">
-                <div class="text">人物风采</div>
+              <div class="news-title">
+                <div class="title-text">人物风采</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
               <div class="news-panel news-list">
                 <div frag="窗口内容">
                   <div style="display:flex;flex-direction:row;justify-content:center;align-items:flex-start;">
@@ -301,15 +288,14 @@
           </div>
         </div>
 
-        <div class="news">
+        <div class="news" style="margin: 0 40px; width:300px; float:left">
           <div frag="面板11">
             <div frag="窗口11">
 
-              <div class="title">
-                <div class="text">媒体视角</div>
+              <div class="news-title">
+                <div class="title-text">媒体视角</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
               <div class="news-panel news-list">
                 <div frag="窗口内容">
                   <div style="display:flex;flex-direction:row;justify-content:center;align-items:flex-start;">
@@ -326,15 +312,14 @@
           </div>
         </div>
 
-        <div class="news">
+        <div class="news" style="width:300px; float:left">
           <div frag="面板12">
             <div frag="窗口12">
 
-              <div class="title">
-                <div class="text">国际化</div>
+              <div class="news-title">
+                <div class="title-text">国际化</div>
                 <span frag="按钮" type="更多" class="more_btn1"><span frag="按钮内容"><img src="asset/img/more.png"></span></span>
               </div>
-              <div class="line"> </div>
               <div class="news-panel news-list">
                 <div frag="窗口内容">
                   <div style="display:flex;flex-direction:row;justify-content:center;align-items:flex-start;">
@@ -350,9 +335,13 @@
             </div>
           </div>
         </div>
+        <div class="clear"></div>
       </div>
     </div>
+    <div class="clear"></div>
+    </div>
   </div>
+
   <div id="bottom">
     <div class="bottom-content">
       <p id="copyright">
