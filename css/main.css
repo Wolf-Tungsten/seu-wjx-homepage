@@ -251,27 +251,31 @@ body {
 }
 
 #bottom .bottom-content {
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-grow:1;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 #bottom #copyright {
-  font-size: 12px;
+  font-size: 14px;
   color: #ffffff;
-  flex-grow: 1;
-  padding-left: 30px;
+  font-weight: bold;
+  float: left;
+  line-height: 1.8;
+  margin-top:20px;
 }
+
 #bottom #wx {
-  font-size: 12px;
+  font-size: 14px;
   color: #ffffff;
   padding-right: 15px;
+  float: right;
+  margin-top:62px;
+  font-weight: bold;
 }
 #bottom #qrcode {
   width: 80px;
-  padding-right: 30px;
+  margin-top:32px;
+  float: right;
 }
 
 
