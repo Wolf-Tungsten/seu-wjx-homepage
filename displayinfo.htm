@@ -4,12 +4,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>东南大学吴健雄学院</title>
-  <link type="text/css" href="/_upload/tpl/06/66/1638/template1638/css/main.css" rel="stylesheet" />
-  <link type="text/css" href="/_upload/tpl/06/66/1638/template1638/css/nav.css" rel="stylesheet" />
-  <link type="text/css" href="/_upload/tpl/06/66/1638/template1638/css/displayinfo.css" rel="stylesheet" />
-  <script src="/_upload/tpl/06/66/1638/template1638/js/less.js" type="text/javascript"></script>
-  <script src="/_upload/tpl/06/66/1638/template1638/extends/extends.js"></script>
-  <link href="/_upload/tpl/06/66/1638/template1638/extends/extends.css" rel="stylesheet" type="text/css" />
+  <link type="text/css" href="css/main.css" rel="stylesheet" />
+  <link type="text/css" href="css/nav.css" rel="stylesheet" />
+  <link type="text/css" href="css/displayinfo.css" rel="stylesheet" />
+  <script src="js/less.js" type="text/javascript"></script>
+  <script src="extends/extends.js"></script>
+  <link href="extends/extends.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -37,11 +37,10 @@
     </div>
   </div>
 
-  <div id="main-content" style="display:flex; flex-direction:column; align-items:stretch; max-width: 1200px">
-
-    <div style="display: flex;">
+  <div id="main-content">
+    <div id="main-content-inner">
       <!-- 新闻内容部分 -->
-      <div style="flex-grow: 1">
+      <div style="float: left; width: 840px; padding:20px; border: solid 1px #eee; padding-top: 14px; ">
         <div class="wrapper" id="container">
           <div class="inner">
             <div class="infobox" frag="面板32">
@@ -64,9 +63,7 @@
       </div>
 
       <!-- 最近更新部分 -->
-      <div style="padding-top:50px; padding-right:15px; min-width: 320px; display: flex; flex-direction: column; align-items:stretch">
-
-
+      <div style="width: 292px;float: right;">
         <div class="news" style="flex-grow:0">
           <div class="title">
             <div class="text">最近更新</div>
@@ -109,22 +106,23 @@
             </div>
           </div>
         </div>
-
-
       </div>
-
+      <div class="clear"></div>
     </div>
-
+    <div class="clear"></div>
   </div>
+  <div class="clear"></div>
   <div id="bottom">
     <div class="bottom-content">
       <p id="copyright">
         版权所有@东南大学吴健雄学院<br/> 中国·南京·东南大学吴健雄学院 邮编：211189<br/> Email：wjxxy@pub.seu.edu.cn Tel：025-52090996
+        <br/>
+        <a href="http://webplus.seu.edu.cn" style="color:#fff;">管理入口</a>
       </p>
+      <img id="qrcode" src="asset/img/qrcode.jpg" />
       <p id="wx">
         欢迎关注东南大学吴健雄学院微信平台
       </p>
-      <img id="qrcode" src="asset/img/qrcode.jpg" />
     </div>
   </div>
 </body>
