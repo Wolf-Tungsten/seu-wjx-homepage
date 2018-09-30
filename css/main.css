@@ -106,8 +106,8 @@ body {
   background-color: #2f7ee5;
   text-align: center;
   color: #ffffff;
-  height: 45px;
-  line-height: 45px;
+  height: 40px;
+  line-height: 40px;
 }
 .sider-panel .content {
   padding: 20px 20px;
@@ -269,8 +269,9 @@ body {
   color: #ffffff;
   padding-right: 15px;
   float: right;
-  margin-top:62px;
+  margin-top:48px;
   font-weight: bold;
+  text-align: right;
 }
 #bottom #qrcode {
   width: 80px;
@@ -317,13 +318,14 @@ body {
 }
 
 .wp_search #keyword{
-  height: 39px !important;
+  height: 25px !important;
   width: 147px !important;
 }
 
 .wp_search .search{
-  height: 45px !important;
-  width: 45px !important;
+  height: 32px !important;
+  width: 32px !important;
+  background-size: 32px 32px;
   background: url('../asset/img/search45.png') !important;
 }
 

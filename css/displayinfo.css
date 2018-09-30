@@ -1,6 +1,6 @@
 .infobox { margin:0 auto;}
 .article {}
-.article h1.arti_title { line-height:26px; font-family: "Microsoft YaHei"; padding:20px; text-align:center; font-size:24px; color:#0d4eb2; border-bottom-style: solid; border-bottom-width: 3px; border-bottom-color: #0d4eb2;} /**文章标题**/
+.article h1.arti_title { line-height:26px; font-family: "Microsoft YaHei"; padding:20px; text-align:center; font-size:24px; color:#0d4eb2; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #e00000;} /**文章标题**/
 .article .arti_metas { padding:0px; text-align:center;background-color: #fff;  width: 94%; margin: 0 auto;}
 .article .arti_metas span { margin:0 5px; font-size:12px; color:#787878;} /**文章其他属性**/
 .article .entry { margin:0 auto; overflow:hidden; padding: 24px;} /**文章内容**/
