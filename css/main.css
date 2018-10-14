@@ -153,7 +153,7 @@ body {
 }
 
 .news-title .title-text {
-  color:#222;
+  color:#000;
   font-size:17px;
   height: 34px;
   border-bottom: 3px solid #2f7ee5;
@@ -226,7 +226,7 @@ body {
   padding-right: 5px;
   line-height: 20px;
   text-decoration: none;
-  color: #333333;
+  color: #000;
 }
 .news .news-panel .list .title .new {
   font-size: 12px;
