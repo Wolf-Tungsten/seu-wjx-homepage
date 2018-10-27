@@ -2,7 +2,7 @@
 .navbar { width:100%; height:40px; background:#0c4eb0;position: relative;  z-index: 9999;}   	/**导航区域背景**/
 .navbar .navbox { width:1200px; height:40px; margin:0 auto;}   /**导航窗口大小及位置**/
 .wp_nav { display: flex !important; justify-content: center !important;padding-left:6px;}
-.wp_nav .nav-item { height:40px; width:145px;}
+.wp_nav .nav-item { height:40px; width:128px;}
 .wp_nav .nav-item a span.item-name { color:white; padding:0;}
 #wp_nav_w2 .wp_nav .nav-item a span.item-name {line-height:40px;}
 .wp_nav .nav-item a.parent {}

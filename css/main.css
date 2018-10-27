@@ -255,6 +255,15 @@ body {
   margin: 0 auto;
 }
 
+#school-icon {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 #bottom #copyright {
   font-size: 14px;
   color: #ffffff;
@@ -297,6 +306,7 @@ body {
   padding-top:5px;
   width: 300px;
   line-height: 1.8;
+  text-indent: 2em;
 }
 
 .article-date {
@@ -325,8 +335,8 @@ body {
 .wp_search .search{
   height: 32px !important;
   width: 32px !important;
+  background: url('../asset/img/search45.png');
   background-size: 32px 32px;
-  background: url('../asset/img/search45.png') !important;
 }
 
 .news-panel-slide{
