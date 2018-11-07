@@ -368,19 +368,7 @@
 
 
 </body>
-<!-- 配置轮播图 -->
-<script _ue_org_tagname="script" type="text/javascript">
-  $(document).ready(function () {
-    $('.timer').click();
-    $('.timer').css('display', 'none');
-    setInterval(function () {
-      $('span.right').click();
-    }, 8000);
-    $('span.right').css('background', 'url(https://wolf-tungsten.com/static/seu-youth/slide_next.png) no-repeat');
-    $('span.left').css('background', 'url(https://wolf-tungsten.com/static/seu-youth/slide_previous.png) no-repeat');
-    $('span.left').css('left', 40);
-  })
-</script>
+
 
 <script _ue_org_tagname="script" type="text/javascript">
   $(function(){
@@ -389,13 +377,16 @@
       zWidth:1000,
       zHeight:400,
       pagination: true,
-	  navigation: true,
-	  response: true,
+	    navigation: true,
+	    response: true,
       title:{
-		isAutoWidth:false,
-        href:true
+		    isAutoWidth:true,
+        href:false
       }
     });
+    $('.slider').css('height', '400px')
+    $('.focus-container').css('height', '400px')
+    
   });
 </script>
 </html>
