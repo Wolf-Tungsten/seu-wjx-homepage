@@ -254,6 +254,7 @@ body {
 
 .article-mix-title {
   padding-top:10px;
+  padding-bottom: 5px;
 }
 
 .article-mix-title a {
@@ -268,17 +269,22 @@ body {
   font-size: 12px;
   padding-top:5px;
   width: 300px;
-  line-height: 2.1;
+  line-height: 1.7;
   text-indent: 2em;
 }
 
 .article-mix-list{
   padding-top:0;
-  margin-top:0 !important;
+  margin-top:2px !important;
 }
 
 .article-mix-list .list tbody tr:first-child{
   display:none;
+}
+
+.article-mix-list .title{
+  padding:0 !important;
+
 }
 
 .article-date {
