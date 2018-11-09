@@ -13,7 +13,7 @@
 #wp_nav_w2 .wp_nav .nav-item a.parent:hover span.item-name { color:#003054;}
 #wp_nav_w2 .wp_nav .sub-nav { min-width:108px !important; border:none;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item .mark { background:#0373ce; opacity:0.8; filter:alphy(opcity="80");}
-#wp_nav_w2 .wp_nav .sub-nav .nav-item a { border:none;}
+#wp_nav_w2 .wp_nav .sub-nav .nav-item a { border:none; text-align:center;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item a span.item-name { padding:6px 16px; color:white; line-height:22px;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item a.parent:hover { background:#fff;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item a.parent { background:none;}

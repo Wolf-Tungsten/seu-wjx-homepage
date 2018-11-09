@@ -4,15 +4,15 @@
 .focus-container { overflow:hidden; position:relative; visibility:hidden;}
 .focus-container .focus-item { position:absolute; width:100%; height: 100%; left:0; top:0; overflow: hidden;}
 .focus-container .focus-item img { width: 100%; height: 100%; border:0; vertical-align: top;}
-.focus-title-bar {position:absolute;left:50px;bottom:30px;z-index: 40;width: 607px;height: 65px;}
+.focus-title-bar {position:absolute;right:50px;bottom:30px;z-index: 40;width: 607px;height: 50px;}
 .focus-title-bg {width: 100%;height: 100%;}
 .focus-title {
     text-align: left;
     /* width: 547px; */
     display: inline-block;
     white-space: nowrap;
-    height: 65px;
-    line-height: 65px;
+    height: 50px;
+    line-height: 50px;
     padding: 0 30px;
     color: #06508d;
     position: absolute;
