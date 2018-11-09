@@ -3,11 +3,11 @@
 .navbar .navbox { width:1200px; height:40px; margin:0 auto;}   /**导航窗口大小及位置**/
 .wp_nav { display: flex !important; justify-content: center !important;padding-left:6px;}
 .wp_nav .nav-item { height:40px; width:128px;}
-.wp_nav .nav-item a span.item-name { color:white; padding:0;}
+.wp_nav .nav-item a span.item-name { color:white; padding:0; font-family: -apple-system, BlinkMacSystemFont, Noble Scarlet, PingFang SC, Noto Sans CJK SC, Source Han Sans CN, Microsoft YaHei UI, sans-serif;}
 #wp_nav_w2 .wp_nav .nav-item a span.item-name {line-height:40px;}
 .wp_nav .nav-item a.parent {}
 .wp_nav .nav-item a { font-size:14px;}
-.wp_nav .sub-nav .nav-item a.parent span.item-name { width:71%; background:#fff;}
+.wp_nav .sub-nav .nav-item a.parent span.item-name { width:71%; background:#fff; font-family: -apple-system, BlinkMacSystemFont, Noble Scarlet, PingFang SC, Noto Sans CJK SC, Source Han Sans CN, Microsoft YaHei UI, sans-serif;}
 #wp_nav_w2 .wp_nav .sub-nav .nav-item { height:34px;}
 #wp_nav_w2 .wp_nav .nav-item a.parent:hover { background:#fff;}
 #wp_nav_w2 .wp_nav .nav-item a.parent:hover span.item-name { color:#003054;}

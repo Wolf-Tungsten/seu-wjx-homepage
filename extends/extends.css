@@ -22,7 +22,8 @@
     z-index: 50;
     background-color: #fff;
     opacity: 0.6;
-	filter: alpha(opacity=40);
+    filter: alpha(opacity=40);
+    font-family: -apple-system, BlinkMacSystemFont, Noble Scarlet, PingFang SC, Noto Sans CJK SC, Source Han Sans CN, Microsoft YaHei UI, sans-serif;
 }
 
 .focus-title a,.focus-text a {color: #06508d;text-decoration: none;font-family: "microsoft yahei";font-weight:bold; font-size: 24px;}
