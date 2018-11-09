@@ -408,6 +408,7 @@
 
 <script _ue_org_tagname="script" type="text/javascript">
   $(function(){
+    //设置轮播图
     $(".slider").sudyfocus({
       p:3,
       zWidth:1000,
@@ -420,6 +421,7 @@
         href:false
       }
     });
+    //清除不需要的标题
     setInterval(function(){
       var title = $('.focus-title').text()
       if(title.indexOf('仅图片') !== -1) {
@@ -434,7 +436,8 @@
       $('.slider').css('height', '400px')
       $('.focus-container').css('height', '400px')
     });
-
+    //清除English的二级菜单
+    $('.nav-item.i8').find('.sub-nav').remove()
   });
 </script>
 
