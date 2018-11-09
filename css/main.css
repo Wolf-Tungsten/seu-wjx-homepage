@@ -178,7 +178,12 @@ body {
 }
 
 .news .news-panel .list .title .text{
+  font-size: 12px;
   flex-grow: 1;
+  padding-right: 5px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000;
 }
 
 .news .news-panel .list .title a {
