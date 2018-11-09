@@ -9,11 +9,12 @@
 .focus-title {
     text-align: left;
     /* width: 547px; */
+    font-size:18px;
     display: inline-block;
     white-space: nowrap;
-    height: 50px;
-    line-height: 50px;
-    padding: 0 30px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 11px;
     color: #06508d;
     position: absolute;
     left: 0;
