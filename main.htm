@@ -50,12 +50,15 @@
     <div id="left">
 
       <div class="sider-panel">
-        <div class="title">吴健雄先生简介</div>
-        <div class="content">
-          <img class="image" src="asset/img/wjx.jpg" />
+        <div class="scroll-content">
+          <div class="img-box">
+          <img class="image" src="asset/scroll-wjx/wjx01.jpg" />
+          <img class="image" src="asset/scroll-wjx/wjx02.jpg" />
+          <img class="image" src="asset/scroll-wjx/wjx03.jpg" />
+          <img class="image" src="asset/scroll-wjx/wjx04.jpg" />
+          </div>
           <p class="text">
-            &nbsp; &nbsp; &nbsp; &nbsp;吴健雄（1912.5.31-1997.2.16）， 生于江苏省苏州太仓浏河镇，美籍华人，著名核物理学家、 被誉为“东方居里夫人”，世界物理女王、 原子弹之母、原子核物理的女王、中国居里夫人、
-            物理科学的第一夫人、最伟大的实验物理学家， 在β衰变领域具有世界性的贡献...
+            &nbsp; &nbsp; &nbsp; &nbsp;吴健雄（1912.5.31-1997.2.16）， 生于江苏省苏州太仓浏河镇，美籍华人，著名核物理学家、 被誉为“东方居里夫人”，世界物理女王、 原子弹之母...
             <a>[查看详情>>]</a>
           </p>
         </div>
@@ -218,7 +221,7 @@
                 <div class="list">
                   <div frag="窗口内容">
                     <div class="title">
-                      <span class="text">【{关键字}】{标题}</span>
+                      <span class="text">[{关键字}] {标题}</span>
                       <!-- <span class="date">{发布时间(MM-dd)}</span> -->
                     </div>
                   </div>
@@ -438,6 +441,19 @@
     });
     //清除English的二级菜单
     $('.nav-item.i8').find('.sub-nav').remove()
+    //设置照片切换
+    var current = $('.img-box .image').length - 1
+    for(var imageIndex=current-1; imageIndex>=0; imageIndex--) {
+      $($('.img-box .image')[imageIndex]).fadeOut(1)
+    }
+    setInterval(function(){
+      var under = current - 1 < 0 ? $('.img-box .image').length - 1 : current - 1
+      $($('.img-box .image')[current]).css('z-index','2')
+      $($('.img-box .image')[under]).css('z-index','1')
+      $($('.img-box .image')[under]).fadeIn(500)
+      $($('.img-box .image')[current]).fadeOut(500)
+      current = under
+    }, 3000)
   });
 </script>
 

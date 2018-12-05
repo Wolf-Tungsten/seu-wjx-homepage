@@ -11,6 +11,11 @@
   <script src="extends/extends.js"></script>
   <link href="extends/extends.css" rel="stylesheet" type="text/css" />
 </head>
+<style>
+.listcolumn {
+    display: inline-block;
+}
+</style>
 
 <body>
     <div id="banner">
@@ -40,30 +45,42 @@
   <div id="main-content">
     <div id="main-content-inner">
       <div class="inner listcolumn" style="width: 100%;">
-        <div class="col_menu" style="float:left; width:292px;">
-          <div class="col_menu_head" frag="面板3">
-            <h3 class="col_name" frag="窗口3" portletmode="simpleColumnAnchor"> <span class="col_name_text">
-                <div frag="窗口内容">位置栏目</div>
-              </span> </h3>
-          </div>
-          <div class="col_menu_con" frag="面板4">
-            <div class="col_list" frag="窗口4" portletmode="simpleColumnList">
-              <div frag="窗口内容">位置列表</div>
-            </div>
-          </div>
+       <div class="mod_ti">荣誉教师</div>
+      
+      <div class="art_post-40" frag="面板40">
+      <div frag="窗口40">
+      <div frag="窗口内容">
+      {内容}
+      </div>
+      </div>
+      </div>
+       <div class="mod_post-30" frag="面板3">
+       <div frag="窗口3">
+       <div frag="窗口内容">
+       <ul class="clearfix">
+       <!--[InfoCycleBegin]--> 
+       <li class="tes n{序号值}">
+       <div class="picture_y">{图片}</div>
+       <div class="mod_poss">
+       <div class="mod_namej">{扩展字段7}</div>
+       <div class="mod_jos">{扩展字段1}</div>
+      
+       </div>
+       </li>
+       <!--[InfoCycleEnd]--> 
+       </ul>
+       
+
+       </div>
+       </div> 
+        </div>
         </div>
 
-        <div class="col_news" style="float:right; width:880px;">
-          <div frag="面板6">
-            <div frag="窗口6" portletmode="simpleList">
-              <div frag="窗口内容">栏目新闻</div>
-            </div>
-          </div>
-        </div>
+        
 
       </div>
     </div>
-  </div>
+ 
   <div id="bottom">
     <div class="bottom-content">
       <img id="school-icon" src="asset/img/school-icon.png" />
