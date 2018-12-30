@@ -209,14 +209,15 @@ body {
 	float: right;
 }
 #bottom {
-	height: 135px;
 	width: 100%;
+	    margin: 0 auto;
 	min-width: 1200px;
 	background-color: #9da9bf;
 }
 #bottom .bottom-content {
 	width: 1200px;
 	margin: 0 auto;
+	height: 135px;
 }
 #school-icon {
 	float: left;
@@ -422,7 +423,7 @@ span.zhiwu {
 .mod_bannner {
 	width: 880px;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 16px;
 }
 a.news_box {
 	margin: 0 10px;
@@ -497,7 +498,7 @@ li.jes {
 }
 .mod_left {
 	width: 100%;
-	float: left;
+	
 }
 .post-12 {
 	width: 100%;
@@ -587,7 +588,7 @@ li.tes {
 }
 /*书院导师页面*/
 .picture_t {
-	width: 300px;
+	width: 150px;
 	float: left;
 }
 .mod_concent {
@@ -624,27 +625,27 @@ li.tes {
     width: 550px;
     float: right;
     margin-left: 30px;
-	    margin-top: 55px;
+	      margin-top: 0px;
 }
 
 
 
 .mod_post-45 {
-	width: 880px;
+	    width: 730px;
 	margin: 0 auto;
 	margin-top: 30px;
 }
 .pic_left {
-	width: 300px;
+	width: 150px;
 	float: left;
 }
 .mod_namex {
-    width: 100%;
+    width: 150px;
     float: left;
-    margin-top: 8px;
+    margin-top: 3px;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     color: #7f7272;
     font-weight: bold;
 }
@@ -698,7 +699,8 @@ div#wp_news_w37 .article-mix-content a {
 }
 .post.post1.post-21.mbox {
     width: 880px;
-    margin: 0 auto;
+	height:236px;
+	float:left;
 }
 .post .con {
     padding: 6px 0;
@@ -743,7 +745,8 @@ div#wp_news_w37 .article-mix-content a {
 
 .post.post2.post-22.mbox {
     width: 880px;
-    margin: 0 auto;
+	float:left;
+	height:236px;
 	    margin-top: 10px;
 }
 .more_btn a {
@@ -1184,23 +1187,25 @@ clear: both;
     padding: 15px 0px;
         border-bottom: 2px solid #327be4;
 }
-.mod_xianx {
-    width: 880px;
-   padding: 15px 0;
-      border-bottom: 2px solid #327be4;
-}
+
 .mod_xians {
     width: 880px;
    padding: 0px 0;
       border-bottom: 2px solid #327be4;
 }
+.picture_t img {
+    width: 150px;
+}
 .mod_aks {
-    width: 880px;
     margin: 0 auto;
+    width: 880px;
+    padding: 15px 0;
+    border-bottom: 2px solid #327be4;
 }
 .mod_footyy {
     width: 880px;
     margin: 0 auto;
+	    margin-bottom: 26px;
 }
 #main-contentx {
     width: 100%;
@@ -1235,4 +1240,77 @@ text-align: justify;
 .mid_jiesa a {
     color: #333;
     text-decoration: none;
+}
+.fra {
+    vertical-align: top;
+}
+.modm-left {
+    float: left;
+       width: 500px;
+}
+.jj a {
+    text-decoration: none;
+    color: #3e3737;
+}
+.modm-right {
+    float: right;
+    width: 352px;
+}
+.left {
+    float: left;
+width: 298px;
+	    margin-top: 30px;
+}
+.right {
+    float: right;
+    width: 180px;
+	    margin-top: 30px;
+}
+.pic img {
+    width: 160px;
+}
+.mod_pp {
+    width: 170px;
+    float: left;
+    margin-top: 30px;
+}
+.mod_jis {
+    width: 170px;
+    float: left;
+    font-size: 12px;
+    text-align: justify;
+	line-height: 21px;
+    margin-top: 3px;
+	text-indent: 24px;
+}
+.fot {
+    width: 180px;
+    float: right;
+}
+.biti {
+   width: 170px;
+    float: left;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #327be4;
+}.bt {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+color: #327be4;
+}
+.jj {
+    font-size: 12px;
+    line-height: 21px;
+	margin-top: 3px;
+	    text-indent: 24px;
+text-align: justify;
+}
+.mod_jis a {
+    text-decoration: none;
+    color: #545252;
+}
+img {
+    border: 0;
 }
