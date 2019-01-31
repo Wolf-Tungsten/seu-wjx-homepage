@@ -70,7 +70,8 @@ body {
 .sider-panel .scroll-content .img-box{
   width: 192px;
   position: relative;
-  height: 274px;
+  height: 250px;
+overflow:hidden;
 }
 .sider-panel .scroll-content .img-box .image {
   position: absolute;
